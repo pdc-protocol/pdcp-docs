@@ -5,6 +5,8 @@
     "docs:preview": "vitepress preview"
   },
   "devDependencies": {
+    "eslint": "^8.54.0",
+    "eslint-plugin-markdown": "^3.0.1",
     "vitepress": "^1.0.0-rc.30"
   }
 }
