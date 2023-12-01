@@ -8,16 +8,22 @@ export default defineConfig({
     root: {
       label: 'English',
       lang: 'en'
-    }
+    },
   },
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    siteTitle: 'PDCP Documentation',
+
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'Reference', link: '/en/reference/introduction' },
     ],
 
     sidebar: [
       {
+        text: 'Reference',
+        items: [
+          { text: 'Introduction', link: '/en/reference/introduction' },
+        ],
       }
     ],
 
