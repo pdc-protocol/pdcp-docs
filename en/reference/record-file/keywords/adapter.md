@@ -1,0 +1,1 @@
+# Adapter top-level keyword
